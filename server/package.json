@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The server app for maintaining the system",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node setup.js",
+    "run": "node server.js"
+  },
+  "author": "Kasun Vithanage (alankasun@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.12.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "promises": "^0.2.5"
+  }
+}
